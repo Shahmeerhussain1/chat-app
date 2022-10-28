@@ -1,0 +1,91 @@
+@font-face {
+    font-family: font1;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: font1;
+  }
+.maian{
+  background-image: url(/images/wallpapersden.com_low-poly-mountains_2560x1440.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1_main{
+    font-family: font1;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 0px;
+}
+.sub{
+    background-color:hsla(0,0%,100%,.8);
+    height: 450px;
+    width: 70%;
+    
+}
+.up_head{
+    display: flex;
+    justify-content: center;
+}
+.op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.margins{
+    height: 100px;
+  }
+  .no_border{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    /* padding: 18px 13px; */
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color:hsla(0,0%,100%,.2);
+}
+.no_border:focus{
+    outline: none;
+    color: #000; 
+  font-weight: 200;
+    border-bottom: 2px solid #000;
+    transition: all 0.5s ease-out;
+
+ 
+}
+.btnsss {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+.c{
+    color: white;
+    padding-top: 7px ;
+    padding-left : 9px ;
+    padding-bottom:7px ;
+    padding-right:9px ;
+    background-color: #df8696;
+    border: 2px solid #df8696;
+}
+.c:focus{
+    border: 2px solid #ffff;
+    background-color: #d19ba5;
+  
+  }
+.ac{
+    display: flex;
+    justify-content: center;
+}
+

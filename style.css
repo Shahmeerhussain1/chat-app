@@ -1,0 +1,180 @@
+@font-face {
+    font-family: font1;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: font1;
+  }
+.maian{
+  background-image: url(/images/wallpapersden.com_low-poly-mountains_2560x1440.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1_main{
+    font-family: font1;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 0px;
+    
+}
+.sub{
+    background-color:hsla(0,0%,100%,.8);
+    height: fit-content;
+    width: 70%;
+    
+}
+.up_head{
+    /* border: 2px solid black; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name_ ,.mail_ ,.age_{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.no_border{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 250px;
+    /* padding: 18px 13px; */
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color:hsla(0,0%,100%,.2);
+}
+.no_border:focus{
+    outline: none;
+    color: #000; 
+  font-weight: 200;
+    border-bottom: 2px solid #000;
+    transition: all 0.5s ease-out;
+
+ 
+}
+.margins{
+  height: 100px;
+}
+.subs_0{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btnsss {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+.acc{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.btnsss > button {
+   height: 20px;
+}
+
+#sign_up_btn{
+    color: white;
+    padding-top: 7px ;
+    padding-left : 9px ;
+    padding-bottom:22px ;
+    padding-right:9px ;
+    background-color: #df8696;
+    border: 2px solid #df8696;
+}
+#sign_up_btn:focus{
+    border: 2px solid #ffff;
+    background-color: #d19ba5;
+    
+}
+#sign_up_btn:hover{
+      cursor: pointer;
+
+  }
+.red{
+    color: red;
+    font-size: 10px;
+}
+.opir{
+    width: inherit;
+    display: none;    
+}
+.lmg{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .sub{
+        background-color:hsla(0,0%,100%,.4);
+        height: fit-content;
+        width: 100%;
+        
+    }
+    .up_head{
+        margin-bottom: 0;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  
+@media only screen and (max-width: 830px) {
+    .no_border{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 250px;
+        /* padding: 18px 13px; */
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 3px;
+        background-color:hsla(0,0%,100%,.2);
+    }
+    .margins{
+        height: 50px;
+      }
+  }
